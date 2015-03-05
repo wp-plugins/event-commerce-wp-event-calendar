@@ -34,23 +34,34 @@ Your Customers will be able to:
 - Easy to install and integrate into your site. because necessary post or page will be automatically created and shortcodes will be automatically copied to page.
 	
 = FEATURES: =
+- PLUG-N-PLAY. Just activate it and start using. Post/page creation and shortcode insertion in post/page is automatic. And all necessary database table creation is automatic.
 - Make event Registration ticket bookings in friendly booking interface - select the date(s) and time and fill form fields.
 - Prevent of booking for already reserved event (no of ticket booking for a event which is exactly equal to total no of seat).
 - RESPONSIVE event booking and availability Calendar to fit any device
 - Add/Edit/Manage Event Booking from Admin Interface.
+- Let users submit events from the frontend.
+- Limit the number of bookings in an event.
+- Filter Events by event Category.
+- Cross Browser Support.
+- Can set event image.
+- Responsive Calendar Shortcode.
+- Sandbox integration.  
 - Insert Event Ticket Booking Calendar into any Post/Page using ShortCode [evntgen_sccalendar].
 - Pretty modern administration interface.
+- Pagination of the booking listing.
+- You can fix any UI related issue by writing your custom css from admin option.
 - Supports both am/pm time.
 - Allows inserting the organizer, sponsors and venues for an event.
 - Allows defining the product name at PayPal, the currency, tax,administrator email and the PayPal language in pro version.
 - any kind of event, event registration and ticketing can be managed by this plugin.
-- Colors customization - EventCommerce WP Event Calendar plugin lets you brand the event color so it would perfectly fit your website's colors and theme.
+- Colors customization - Event-Calendar Wordpress event commerce plugin lets you brand the event color so it would perfectly fit your website's colors and theme.
 - Unlimited number of event, unlimited number of clients.
 - venue, organizer, sponsor are unlimited and fully dynamic. so you can set according to your need.
 - Multiple-currency support.
 - Show events in the daily, weekly or monthly view.
 - Easily add, edit or delete event in WP Admin.
 - automatically page created and shortcode copied to page to generate calendar and payment process related pages. so its really easy to install and configure.
+- event ticket registration from events calendar by a easily accessible popup.
 - and much more coming soon...
 
 = Additional Features Available with the Pro (paid) version only =
@@ -82,11 +93,32 @@ Your Customers will be able to:
 - parties ticket booking.
 - tech conferences.
 - Summits.
+- Weddings
+- Seminars
 - gatherings.
 - appointments.
 - charities.
 - masses.
-- events
+- Meetings
+- Team Building Events
+- Trade Shows
+- Business Dinners
+- Golf Events
+- Press Conferences
+- Networking Events
+- Incentive Travel
+- Opening Ceremonies
+- Product Launches
+- Theme Party Theme Parties
+- VIP Event VIP Events
+- Trade Fairs
+- Shareholder Meetings
+- Award Ceremonies
+- Incentive Events
+- Executie Retreat Executive Retreats
+- Birthdays
+- Family Events
+- Any events
 - Whatever you like!
 	 
 This plugin is compatible and tested up to Wordpress Version: 4.1 
