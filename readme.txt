@@ -18,7 +18,7 @@ You can manage the bookings (availability) on an ourly/custom time basis. event 
 calendar in frontend shortcode will be automatically copied. you can add/edit sponsors/venues/organizers or any event or delete bookings from admin to manage the full system.
 
 > **Get more features for a small fee**
-> [EventCommerce WP Event Calendar Pro](http://wordpress-expert.codeinterest.com/) also comes with a premium paid version. Upgrade to [EventCommerce WP Event Calendar Pro](http://wordpress-expert.codeinterest.com/) for exceptional features, including a detailed Integrated Payment Gateway, Customized Calendar view, Free Technical support and much more. [Checkout all the awesome pro features](http://wordpress-expert.codeinterest.com/).
+> [EventCommerce WP Event Calendar Pro](http://wordpress-expert.codeinterest.com/wordpress/eventcommerce-wp-event-calendar-pro) also comes with a premium paid version. Upgrade to [EventCommerce WP Event Calendar Pro](http://wordpress-expert.codeinterest.com/wordpress/eventcommerce-wp-event-calendar-pro) for exceptional features, including a detailed Integrated Payment Gateway, Customized Calendar view, Free Technical support and much more. [Checkout all the awesome pro features](http://wordpress-expert.codeinterest.com/wordpress/eventcommerce-wp-event-calendar-pro).
 >
 
 
@@ -78,7 +78,7 @@ Your Customers will be able to:
 - Event Calendar month, week and day view
 - Full Technical Support From Us
 
-[Upgrade to the Pro version](http://wordpress-expert.codeinterest.com/) for all the pro features, and read more in [depth details](http://wordpress-expert.codeinterest.com/) about the plugin.
+[Upgrade to the Pro version](http://wordpress-expert.codeinterest.com/wordpress/eventcommerce-wp-event-calendar-pro) for all the pro features, and read more in [depth details](http://wordpress-expert.codeinterest.com/wordpress/eventcommerce-wp-event-calendar-pro) about the plugin.
 
 
 = Manage your Bookings in Admin Panel: =
