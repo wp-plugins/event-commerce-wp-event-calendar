@@ -1,4 +1,4 @@
-=== Event-Commerce WP Event Calendar ===
+=== EventCommerce WP Event Calendar ===
 Contributors: wpproducts
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=solvercircle@gmail.com&item_name=Donation+for+wordpress_event_commerce
 Tags: booking, event, event management, event ticket booking, event booking, ticket booking, doctors event, admin, administration, AJAX, event, availability, availability calendar, lawer event scheduling booking, Book, Booking calendar, booking form, booking system, booking engine, booking module, booking plugin, calendar, contact form, parties event registration,ticketing,event ticket booking,conference booking,online event registration booking calendar, online reservation, Reservation, reservation calendar, reservations, reservation plugin, event scheduling, event management, event planner, date blocker, jquery, management, meeting, Meeting event scheduling, Organizer, rent, Rental, reservation system, event calendar, event system, sponsor, to book, tutors event booking, summits event booking, singer event scheduling booking, php event booking system, php mysql event booking calendar, wordpress online event registration booking, wordpress event schedule reservation, Wordpress event ticket booking, wordpress event ticket booking script, gatherings event booking,appointment ticketing,photographer event scheduling booking registration, wp event calendar booking manager, wp  event calendar ticket reservation system, wp reservation script
@@ -12,13 +12,13 @@ Provides an easy way to manage your event calendar booking and check availabilit
 
 == Description ==
 
-"Event-Commerce WP Event Calendar" plugin will enable online Event Ticket Booking services for your site.
+"EventCommerce WP Event Calendar" plugin will enable online Event Ticket Booking services for your site.
 you can show and manage your event ticket Booking/any event(or something else).
 You can manage the bookings (availability) on an ourly/custom time basis. event booking calendar page will be created automatically and to generate
 calendar in frontend shortcode will be automatically copied. you can add/edit sponsors/venues/organizers or any event or delete bookings from admin to manage the full system.
 
 > **Get more features for a small fee**
-> [Event-Calendar Wordpress event commerce Pro](http://wordpress-expert.codeinterest.com/) also comes with a premium paid version. Upgrade to [Event-Calendar Wordpress event commerce Pro](http://wordpress-expert.codeinterest.com/) for exceptional features, including a detailed Integrated Payment Gateway, Customized Calendar view, Free Technical support and much more. [Checkout all the awesome pro features](http://wordpress-expert.codeinterest.com/).
+> [EventCommerce WP Event Calendar Pro](http://wordpress-expert.codeinterest.com/) also comes with a premium paid version. Upgrade to [EventCommerce WP Event Calendar Pro](http://wordpress-expert.codeinterest.com/) for exceptional features, including a detailed Integrated Payment Gateway, Customized Calendar view, Free Technical support and much more. [Checkout all the awesome pro features](http://wordpress-expert.codeinterest.com/).
 >
 
 
@@ -44,7 +44,7 @@ Your Customers will be able to:
 - Allows inserting the organizer, sponsors and venues for an event.
 - Allows defining the product name at PayPal, the currency, tax,administrator email and the PayPal language in pro version.
 - any kind of event, event registration and ticketing can be managed by this plugin.
-- Colors customization - Event-Calendar Wordpress event commerce plugin lets you brand the event color so it would perfectly fit your website's colors and theme.
+- Colors customization - EventCommerce WP Event Calendar plugin lets you brand the event color so it would perfectly fit your website's colors and theme.
 - Unlimited number of event, unlimited number of clients.
 - venue, organizer, sponsor are unlimited and fully dynamic. so you can set according to your need.
 - Multiple-currency support.
@@ -143,7 +143,7 @@ This is the initial version of the plugin.
 == Installation ==
 
 1) Copy/Upload 'evntgen-scbooking' folder to the '/wp-content/plugins/' directory
-2) Activate 'Event-Calendar Wordpress event commerce' form wp plugin option in admin area
+2) Activate 'EventCommerce WP Event Calendar' form wp plugin option in admin area
 3) Plugin will appear in the menu bar of WP Dashboard
 4) create venue/sponsors/organizer/events for booking.
 5) please save primary menu if no rooms gallery or booking calendar is showing.
@@ -151,4 +151,4 @@ This is the initial version of the plugin.
 == FAQ ==
 
 = 1.1 =
-First version of Event-Calendar Wordpress event commerce . No errors known.
+First version of EventCommerce WP Event Calendar. No errors known.
