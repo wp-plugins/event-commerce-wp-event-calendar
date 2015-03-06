@@ -504,14 +504,14 @@ function evntgen_event_uninstall(){
 register_activation_hook( __FILE__, 'evntgen_scevent_install' );
 register_deactivation_hook( __FILE__, 'evntgen_event_uninstall');
 
-function evntgen_prevent_admin_access()
+/*function evntgen_prevent_admin_access()
 {
     if (strpos( strtolower( $_SERVER['REQUEST_URI'] ), '/wp-admin' ) && !current_user_can( 'administrator' ) ){
     		//die('user....');
 		    wp_redirect( home_url() );
 		}
 }
-add_action( 'init', 'evntgen_prevent_admin_access', 0 );
+add_action( 'init', 'evntgen_prevent_admin_access', 0 );*/
 //====== session start =================================
 add_action('init', 'evntgen_eventStartSession', 1);
 function evntgen_eventStartSession() {
