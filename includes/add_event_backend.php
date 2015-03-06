@@ -135,7 +135,7 @@
               }
 					},
 					complete: function (data){
-						evntgen_calculate_due();
+						evntgen_calculate_total_price();
 					},
 					error : function(s , i , error){
 							console.log(error);
@@ -154,10 +154,11 @@
 							var count = data.length;
               if(arr_events.length != 0){
                 jQuery('#txtCustomPrice').val(data);
+                jQuery('#hdnoriginal_ticket_price').val(data);
               }
 					},
 					complete: function (data){
-						evntgen_calculate_due();
+						evntgen_calculate_total_price();
 					},
 					error : function(s , i , error){
 							console.log(error);
@@ -173,6 +174,9 @@
 					evntgen_get_eventprice();
 				}
 			});
+      jQuery('#noof_ticket').keyup(function(){
+        evntgen_calculate_total_price();
+      });
 			//-------------------------------------------------
 			var calltype = evntgen_getUrlVars()["calltype"];
 			if(calltype){
@@ -230,7 +234,7 @@
 			});
 			//----save booking----
 			jQuery('#frmbooking').on('submit',function(e){
-	  		 	 e.preventDefault();
+	  		 e.preventDefault();
 				 evntgen_save_booking();
 			});
 			//---------------------------
@@ -400,11 +404,17 @@
 			}
 			return true;
 	}
-	function evntgen_calculate_due(){
-		var price = jQuery('#txtCustomPrice').val();
-		var paid = jQuery('#txtPaid').val();
-		var due = (price - paid);
-		jQuery('#txtDue').val(due); 
+	function evntgen_calculate_total_price(){
+    $total_price = 0;
+		$original_price = jQuery('#hdnoriginal_ticket_price').val();
+    $howmany_ticket = jQuery('#noof_ticket').val();
+    if($howmany_ticket == "" || $howmany_ticket == null ){
+      $total_price = ($original_price * 1);
+    }
+    else{
+      $total_price = ($original_price * $howmany_ticket);
+    }
+		jQuery('#txtCustomPrice').val($total_price); 
 	}
   </script>
 
@@ -538,6 +548,7 @@
                   <input type="hidden" id="hdneventbookingid" name="hdneventbookingid" value="" style="width:150px;"/>
                   <input type="hidden" id="hdneventid" name="hdneventid" value="" style="width:150px;"/>
                   <input type="hidden" id="hdnnoofticket" name="hdnnoofticket" value="" style="width:150px;"/>
+                  <input type="hidden" id="hdnoriginal_ticket_price" name="hdnoriginal_ticket_price" value="0" style="width:150px;"/>
                   </td>
                 </tr>
               </table>

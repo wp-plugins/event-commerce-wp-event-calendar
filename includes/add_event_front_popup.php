@@ -64,7 +64,7 @@
               }
 					},
 					complete: function (data){
-						evntgen_calculate_due();
+						evntgen_calculate_total_price();
 					},
 					error : function(s , i , error){
 							console.log(error);
@@ -83,10 +83,11 @@
 							var count = data.length;
               if(arr_events.length != 0){
                 jQuery('#txtCustomPrice').val(data);
+                jQuery('#hdnoriginal_ticket_price').val(data);
               }
 					},
 					complete: function (data){
-						evntgen_calculate_due();
+						evntgen_calculate_total_price();
 					},
 					error : function(s , i , error){
 							console.log(error);
@@ -187,7 +188,10 @@
 				onClick: function(view){
 					evntgen_get_eventprice();
 				}
-			});			
+			});		
+      jQuery('#noof_ticket').keyup(function(){
+        evntgen_calculate_total_price();
+      });
 			//-------------------------------------------------
 			jQuery("#txtCustomPrice").keydown(function (e) {
 					// Allow: backspace, delete, tab, escape, enter and .
@@ -432,11 +436,17 @@
 			return true;
 	}
 
-	function evntgen_calculate_due(){
-		$price = jQuery('#txtCustomPrice').val();
-		$paid = jQuery('#txtPaid').val();
-		$due = ($price - $paid);
-		jQuery('#txtDue').val($due); 
+	function evntgen_calculate_total_price(){
+    $total_price = 0;
+		$original_price = jQuery('#hdnoriginal_ticket_price').val();
+    $howmany_ticket = jQuery('#noof_ticket').val();
+    if($howmany_ticket == "" || $howmany_ticket == null ){
+      $total_price = ($original_price * 1);
+    }
+    else{
+      $total_price = ($original_price * $howmany_ticket);
+    }
+		jQuery('#txtCustomPrice').val($total_price); 
 	}
 	//-----------------------add booking dialog-------------------------------===
   </script>
@@ -554,7 +564,7 @@
                     <label for="txtCustomPrice"><?php _e("Price:","evntgen-scbooking"); ?> </label>
                   </td>
                   <td class="bookinginput">
-                    <input type="text" id="txtCustomPrice" name="txtCustomPrice" class="rounded" value="" />
+                    <input type="text" id="txtCustomPrice" name="txtCustomPrice" readonly="readonly" class="rounded" value="" />
                   </td>
                   <td class="bookingasterik"></td>
                 </tr>
@@ -573,6 +583,7 @@
                     <input type="hidden" id="hdneventbookingid" name="hdneventbookingid" value="" style="width:150px;"/>
                     <input type="hidden" id="hdneventid" name="hdneventid" value="" style="width:150px;"/>
                     <input type="hidden" id="hdnnoofticket" name="hdnnoofticket" value="" style="width:150px;"/>
+                    <input type="hidden" id="hdnoriginal_ticket_price" name="hdnoriginal_ticket_price" value="0" style="width:150px;"/>
                   </td>
                 </tr>
               </table>
