@@ -121,7 +121,6 @@ Your Customers will be able to:
 - Any events
 - Whatever you like!
 	 
-This plugin is compatible and tested up to Wordpress Version: 4.1 
 
 <p>Some of our popular extensions include the followings:</p> 
 
